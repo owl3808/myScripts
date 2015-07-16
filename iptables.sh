@@ -32,8 +32,8 @@ $IPTABLES -A INPUT -p tcp -s 0/0 --sport 443 -j ACCEPT
 
 
 # accept http server
-$IPTABLES -A INPUT -p tcp -s 0/0 --dport 80 -j ACCEPT
-$IPTABLES -A INPUT -p tcp -s 140.116.0.0/16 --dport 8000 -j ACCEPT
+#$IPTABLES -A INPUT -p tcp -s 0/0 --dport 80 -j ACCEPT
+#$IPTABLES -A INPUT -p tcp -s 140.116.0.0/16 --dport 8000 -j ACCEPT
 
 
 # accept DNS
