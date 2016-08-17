@@ -16,3 +16,4 @@ rm mycron
 # setup git
 git config --global user.name $myName
 git config --global user.email $myEmail
+git config --global core.editor vim
